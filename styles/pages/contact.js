@@ -18,3 +18,14 @@ export const LinkStyled = styled(motion.a)`
   flex-wrap: wrap;
   font-size: 1.2rem;
 `;
+
+export const MyPhoto = styled(motion.div)`
+  margin: 0 auto;
+  max-width: 220px;
+  max-height: 220px;
+  margin-bottom: 1.5rem;
+
+  img {
+    border-radius: 50%;
+  }
+`;
