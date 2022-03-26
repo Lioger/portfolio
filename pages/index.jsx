@@ -22,26 +22,28 @@ const Home = () => {
             </motion.p>
           </Hide>
           <Hide>
-            <motion.p variants={textAnimation}>You're still there? Then let's get started.</motion.p>
+            <motion.p variants={textAnimation}>You&apos;re still there? Then let&apos;s get started.</motion.p>
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              So, my name is Nikita Stepanov and I'm a 23 y.o. <Keyword className="extra">frontend-developer</Keyword>{' '}
-              and <Keyword className="extra">crypto believer</Keyword> from Taganrog, Russia.
+              So, my name is Nikita Stepanov and I&apos;m a 23 y.o.{' '}
+              <Keyword className="extra">frontend-developer</Keyword> and{' '}
+              <Keyword className="extra">crypto believer</Keyword> from Taganrog, Russia.
             </motion.p>
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              I'm crazy about the Web Dev. Started learning basics of HTML, when I was in high school. Then graduated
-              from University with a <Keyword className="education">bachelor's degree in Business Informatics</Keyword>.
-              After that I realized that it wasn't enough for me and decided to get also a{' '}
-              <Keyword className="education">master's degree in UX/UI design</Keyword>.
+              I&apos;m crazy about the Web Dev. Started learning basics of HTML, when I was in high school. Then
+              graduated from University with a{' '}
+              <Keyword className="education">bachelor&apos;s degree in Business Informatics</Keyword>. After that I
+              realized that it wasn&apos;t enough for me and decided to get also a{' '}
+              <Keyword className="education">master&apos;s degree in UX/UI design</Keyword>.
             </motion.p>
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              So what we've got now. I position myself as a <Keyword className="stack">React</Keyword> developer. As a
-              state manager mostly using <Keyword className="stack">Redux</Keyword>, but in small projects prefer
+              So what we&apos;ve got now. I position myself as a <Keyword className="stack">React</Keyword> developer.
+              As a state manager mostly using <Keyword className="stack">Redux</Keyword>, but in small projects prefer
               handling state with <Keyword className="stack">React Hooks</Keyword>. I love to make my pages animated and
               for this I use <Keyword className="stack">Framer-Motion</Keyword> and{' '}
               <Keyword className="stack">GSAP</Keyword> libraries. For styling usuallu use{' '}
@@ -51,22 +53,22 @@ const Home = () => {
               experience of using <Keyword className="stack">Node.js + Express</Keyword> and{' '}
               <Keyword className="stack">PHP</Keyword> as a data source API. As for DB I prefer{' '}
               <Keyword className="stack">PostgreSQL</Keyword> using TypeORM or Sequelize or{' '}
-              <Keyword className="stack">Mongo DB</Keyword>. Now I'm more and more immersed in the study of{' '}
+              <Keyword className="stack">Mongo DB</Keyword>. Now I&apos;m more and more immersed in the study of{' '}
               <Keyword className="stack">Next.js</Keyword> and love to create some cool projects like current website.
             </motion.p>
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
               Also know lots about <Keyword className="education">SEO</Keyword> and some ways to improve it (thats why
-              I've decided to learn Next.js). I don't stand still, in my free time I aspire to learn smth new or
-              strenghten existing knowledge. I have a great desire to develop both my{' '}
+              I&apos;ve decided to learn Next.js). I don&apos;t stand still, in my free time I aspire to learn smth new
+              or strenghten existing knowledge. I have a great desire to develop both my{' '}
               <Keyword className="education">hard and soft skills</Keyword> and especially in a good team on cool
               projects.
             </motion.p>
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              I'm a teamplayer, know the <Keyword className="soft">Scrum</Keyword> and{' '}
+              I&apos;m a teamplayer, know the <Keyword className="soft">Scrum</Keyword> and{' '}
               <Keyword className="soft">Kanban</Keyword> methodology and how to handle tasks using{' '}
               <Keyword className="soft">Trello</Keyword> and <Keyword className="soft">Jira</Keyword>. Also have nice
               knowledge of <Keyword className="stack">Git</Keyword>, can build the app using{' '}
@@ -77,8 +79,8 @@ const Home = () => {
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              Speak <Keyword className="extra">English</Keyword> fluently. Don't get stuck, when talking to foreigner.
-              Here's my{' '}
+              Speak <Keyword className="extra">English</Keyword> fluently. Don&apos;t get stuck, when talking to
+              foreigner. Here&apos;s my{' '}
               <Link href="https://www.efset.org/cert/coYfg4" target="_blank" rel="noopener noreferrer">
                 EF SET certificate
               </Link>
@@ -91,8 +93,8 @@ const Home = () => {
               <Link href="mailto:nickstepanovdev@gmail.com" className="bold">
                 Email me
               </Link>{' '}
-              if you have any offers. I'll do my best to bring your ideas to life. Or text me just for fun, always glad
-              to meet new people!
+              if you have any offers. I&apos;ll do my best to bring your ideas to life. Or text me just for fun, always
+              glad to meet new people!
             </PageTitle>
           </Hide>
         </AboutSection>

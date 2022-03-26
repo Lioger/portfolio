@@ -30,11 +30,11 @@ const Works = () => {
           >
             <ProjectTitle>Waves 🌊</ProjectTitle>
             <ProjectDescription>
-              React based music player. Simple but that's the beauty of it. Smooth animation, aesthetic design and
+              React based music player. Simple but that&apos;s the beauty of it. Smooth animation, aesthetic design and
               relaxing music. Just breathe and relax.
             </ProjectDescription>
             <ProjectCover>
-              <Image src={waves1} />
+              <Image src={waves1} alt="Waves" />
             </ProjectCover>
           </ProjectCard>
           <ProjectCard
@@ -49,7 +49,7 @@ const Works = () => {
               you want to know more about.
             </ProjectDescription>
             <ProjectCover>
-              <Image src={ignite1} />
+              <Image src={ignite1} alt="Ignite" />
             </ProjectCover>
           </ProjectCard>
           <ProjectCard
@@ -63,7 +63,7 @@ const Works = () => {
               React based portfolio for the videographer team. Animations and various design techniques. Just beauty.
             </ProjectDescription>
             <ProjectCover>
-              <Image src={capture1} />
+              <Image src={capture1} alt="Capture" />
             </ProjectCover>
           </ProjectCard>
         </ProjectsSection>

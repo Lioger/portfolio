@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Link href="/">
-        <Logo>Nikita Stepanov</Logo>
+        <a>
+          <Logo>Nikita Stepanov</Logo>
+        </a>
       </Link>
       <Nav>
         <Link href="/projects">
