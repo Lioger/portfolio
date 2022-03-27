@@ -7,15 +7,7 @@ import { pageAnimation } from '../animations/global';
 
 import projects from '../utils/projects';
 
-export const getStaticProps = async () => {
-  return {
-    props: {
-      projectsList: projects,
-    },
-  };
-};
-
-const Works = ({ projectsList }) => {
+const Works = () => {
   return (
     <>
       <Head>
@@ -23,7 +15,7 @@ const Works = ({ projectsList }) => {
       </Head>
       <MainContainer>
         <ProjectsSection variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-          {projectsList && projectsList.map((project) => <ProjectCard project={project} key={project.id} />)}
+          {projects && projects.map((project) => <ProjectCard project={project} key={project.id} />)}
         </ProjectsSection>
       </MainContainer>
     </>

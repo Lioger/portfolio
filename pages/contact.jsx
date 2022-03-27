@@ -9,15 +9,7 @@ import { pageAnimation, textAnimation, cardAnimation } from '../animations/globa
 import links from '../utils/links';
 import photo from './../public/me.jpg';
 
-export const getStaticProps = async () => {
-  return {
-    props: {
-      socialLinks: links,
-    },
-  };
-};
-
-const Contact = ({ socialLinks }) => {
+const Contact = () => {
   return (
     <>
       <Head>
@@ -30,9 +22,7 @@ const Contact = ({ socialLinks }) => {
         <Hide>
           <PageTitle variants={textAnimation}>My links</PageTitle>
         </Hide>
-        <LinksSection>
-          {socialLinks && socialLinks.map((link) => <SocialLink key={link.id} link={link} />)}
-        </LinksSection>
+        <LinksSection>{links && links.map((link) => <SocialLink key={link.id} link={link} />)}</LinksSection>
       </MainContainer>
     </>
   );
