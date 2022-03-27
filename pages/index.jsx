@@ -17,8 +17,8 @@ const Home = () => {
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              I am very to see you here. If you want to know more about me, then stay on this page and get ready to read
-              a lot of information, or you can go to another page that interests you.
+              I am very happy to see you here. If you want to know more about me, then stay on this page and get ready
+              to read a lot of information, or you can go to another page that interests you.
             </motion.p>
           </Hide>
           <Hide>
