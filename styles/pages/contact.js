@@ -10,15 +10,6 @@ export const LinksSection = styled(motion.section)`
   gap: 2rem;
 `;
 
-export const LinkStyled = styled(motion.a)`
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-size: 1.2rem;
-`;
-
 export const MyPhoto = styled(motion.div)`
   margin: 0 auto;
   max-width: 220px;

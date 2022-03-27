@@ -1,21 +1,22 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import metadata from '../utils/meta';
 
 const Document = () => {
   return (
     <Html>
       <Head>
-        <meta name="title" content="Nikita Stepanov" />
-        <meta name="description" content="Portfolio of React frontend developer" />
-        <meta property="og:title" content="Nikita Stepanov" />
+        <meta name="title" content={metadata.title} />
+        <meta name="description" content={metadata.description} />
+        <meta property="og:title" content={metadata.title} />
         <meta property="og:type" content="page" />
-        <meta property="og:description" content="Portfolio of React frontend developer" />
-        <meta property="og:image" content="/me.jpg" />
-        <meta property="og:url" content="http://nikitastepanov.vercel.app/" />
-        <meta name="twitter:title" content="Nikita Stepanov" />
-        <meta name="twitter:description" content="Portfolio of React frontend developer" />
-        <meta name="twitter:image" content="/me.jpg" />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.image} />
+        <meta property="og:url" content={metadata.link} />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content={metadata.image} />
 
-        <link rel="canonical" href="http://nikitastepanov.vercel.app/" />
+        <link rel="canonical" href={metadata.link} />
         <link rel="icon" href="/icons/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
