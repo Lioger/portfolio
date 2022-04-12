@@ -1,13 +1,11 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 import SocialLink from '../components/SocialLink';
 import { MainContainer, PageTitle, Hide } from './../styles/components';
-import { LinksSection, MyPhoto } from './../styles/pages/contact';
-import { pageAnimation, textAnimation, cardAnimation } from '../animations/global';
+import { LinksSection } from './../styles/pages/contact';
+import { pageAnimation, textAnimation } from '../animations/global';
 
 import links from '../utils/links';
-import photo from './../public/me.jpg';
 
 const Contact = () => {
   return (
