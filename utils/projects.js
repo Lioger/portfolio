@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: 'Waves 🌊',
     description:
-      "React based music player. Simple but that's the beauty of it. Smooth animation, aesthetic design and relaxing music. Just breathe and relax.",
+      "React based music player. Simple but that's the beauty of it. Smooth animation, aesthetic design and relaxing music. Just breathe and chill.",
     href: 'https://lioger.github.io/waves',
     image: waves1,
   },
