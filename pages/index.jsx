@@ -26,7 +26,7 @@ const Home = () => {
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              So, my name is Nikita Stepanov{' '}
+              So, my name is Nikita Stepanov, I&apos;m a{' '}
               <Keyword className="extra">Middle frontend-developer</Keyword> and{' '}
               <Keyword className="extra">crypto believer</Keyword>.
             </motion.p>
@@ -42,7 +42,7 @@ const Home = () => {
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              So what we&apos;ve got now. I position myself as a <Keyword className="stack">React</Keyword> developer.
+              So what we&apos;ve got now. My main stack is <Keyword className="stack">Java Script</Keyword> and <Keyword className="stack">React</Keyword> framework.
               As a state manager mostly using <Keyword className="stack">Redux</Keyword>, but in small projects prefer
               handling state with <Keyword className="stack">React Hooks</Keyword>. I love to make my pages animated and
               for this I use <Keyword className="stack">Framer-Motion</Keyword> and{' '}
@@ -51,16 +51,16 @@ const Home = () => {
               <Keyword className="stack">Sass</Keyword> and <Keyword className="stack">CSS Modules</Keyword>. Know
               basics of <Keyword className="stack">TypeScript</Keyword> and sometimes use it in my projects. Also have
               experience of using <Keyword className="stack">Node.js + Express</Keyword> and{' '}
-              <Keyword className="stack">PHP</Keyword> as a data source API. As for DB I prefer{' '}
+              <Keyword className="stack">PHP</Keyword> as a backend layer for API requests. As for DB I prefer{' '}
               <Keyword className="stack">PostgreSQL</Keyword> using TypeORM or Sequelize or{' '}
-              <Keyword className="stack">Mongo DB</Keyword>. Now I&apos;m more and more immersed in the study of{' '}
+              <Keyword className="stack">Mongo DB</Keyword>. Know <Keyword className="stack">Highcharts</Keyword> library and can apply it. Now I&apos;m more and more immersed in the study of{' '}
               <Keyword className="stack">Next.js</Keyword> and love to create some cool projects like current website.
             </motion.p>
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              Also know lots about <Keyword className="education">SEO</Keyword> and some ways to improve it (thats why
-              I&apos;ve decided to learn Next.js). I don&apos;t stand still, in my free time I aspire to learn smth new
+              Also know lots about <Keyword className="education">SEO</Keyword> and different ways to improve it (one of the reasons
+              to learn Next.js). I don&apos;t stand still, in my free time I aspire to learn smth new
               or strenghten existing knowledge. I have a great desire to develop both my{' '}
               <Keyword className="education">hard and soft skills</Keyword> and especially in a good team on cool
               projects.
@@ -68,12 +68,12 @@ const Home = () => {
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              I&apos;m a teamplayer, know the <Keyword className="soft">Scrum</Keyword> and{' '}
-              <Keyword className="soft">Kanban</Keyword> methodology and how to handle tasks using{' '}
-              <Keyword className="soft">Trello</Keyword> and <Keyword className="soft">Jira</Keyword>. Also have nice
-              knowledge of <Keyword className="stack">Git</Keyword>, can build the app using{' '}
+              I&apos;m a teamplayer, know the <Keyword className="soft">Agile</Keyword>
+              methodology and how to handle tasks using <Keyword className="soft">Trello</Keyword> and{' '}
+              <Keyword className="soft">Jira</Keyword>. Also have nice knowledge of{' '}
+              <Keyword className="stack">Git</Keyword>, can build the app using{' '}
               <Keyword className="stack">Webpack</Keyword> and wrap it in <Keyword className="stack">Docker</Keyword>.
-              Experience with <Keyword className="soft">Adobe XD</Keyword> and <Keyword className="soft">Figma</Keyword>
+              Experienced with <Keyword className="soft">Figma</Keyword> and <Keyword className="soft">Adobe XD</Keyword>
               .
             </motion.p>
           </Hide>
