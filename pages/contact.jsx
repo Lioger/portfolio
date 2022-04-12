@@ -16,9 +16,6 @@ const Contact = () => {
         <title>CONTACT | NIKITA STEPANOV</title>
       </Head>
       <MainContainer variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-        <MyPhoto variants={cardAnimation}>
-          <Image src={photo} alt="Me" />
-        </MyPhoto>
         <Hide>
           <PageTitle variants={textAnimation}>My links</PageTitle>
         </Hide>

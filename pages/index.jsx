@@ -26,9 +26,9 @@ const Home = () => {
           </Hide>
           <Hide>
             <motion.p variants={textAnimation}>
-              So, my name is Nikita Stepanov and I&apos;m a 23 y.o.{' '}
+              So, my name is Nikita Stepanov{' '}
               <Keyword className="extra">Middle frontend-developer</Keyword> and{' '}
-              <Keyword className="extra">crypto believer</Keyword> from Taganrog, Russia.
+              <Keyword className="extra">crypto believer</Keyword>.
             </motion.p>
           </Hide>
           <Hide>
