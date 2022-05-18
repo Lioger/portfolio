@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+export const MainBackground = 'linear-gradient(90deg, rgba(0, 2, 25, 1) 0%, rgba(0, 48, 87, 1) 100%)';
+
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -16,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   body {
-    background: linear-gradient(90deg, rgba(0, 2, 25, 1) 0%, rgba(0, 48, 87, 1) 100%);
+    background: ${MainBackground};
     min-height: 100vh;
     color: white;
     font-family: 'Montserrat', sans-serif;

@@ -14,3 +14,8 @@ export const cardAnimation = {
   show: { opacity: 1, scale: 1, transition: { type: 'spring', bounce: 0.4 } },
   exit: { opacity: 0, transition: { duration: 0.5 } },
 };
+
+export const menuAnimation = {
+  hidden: { opacity: 1, x: '-100%', transition: { type: 'spring', bounce: 0.05, duration: 0.7 } },
+  show: { opacity: 1, x: 0, transition: { type: 'spring', bounce: 0.05, duration: 0.7 } },
+}

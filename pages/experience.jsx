@@ -1,22 +1,20 @@
 import Head from 'next/head';
-
-import ProjectCard from './../components/ProjectCard';
+import ExperienceCard from '../components/ExperienceCard';
+import experience from '../utils/experience';
 import { MainContainer } from './../styles/components';
 import { ProjectsSection } from './../styles/pages/projects';
 import { pageAnimation } from '../animations/global';
 
-import projects from '../utils/projects';
-
-const Works = () => {
+const Experience = () => {
   return (
     <>
       <Head>
-        <title>PROJECTS | NIKITA STEPANOV</title>
+        <title>EXPERIENCE | NIKITA STEPANOV</title>
       </Head>
       <MainContainer>
         <ProjectsSection variants={pageAnimation} initial="hidden" animate="show" exit="exit">
-          {projects?.map((project) => (
-            <ProjectCard project={project} key={project.id} />
+          {experience?.map((place) => (
+            <ExperienceCard place={place} key={place.name} />
           ))}
         </ProjectsSection>
       </MainContainer>
@@ -24,4 +22,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Experience;
