@@ -2,17 +2,15 @@ const experience = [
   {
     name: 'Feedvisor',
     link: 'https://feedvisor.com/',
-    role: 'Frontend Developer',
-    startDate: '04.02.2022',
     achievements: [
       {
         id: 1,
-        text: "The feature I added incresed user satisfaction by 7%",
+        text: "The feature I've added incresed user satisfaction by 7%",
         icon: '⬆️',
       },
       {
         id: 2,
-        text: "New functionality allowed the company to attract more major clients",
+        text: "Adding new functionality allowed the company to attract new major clients, including those from our competitors",
         icon: '⚜️',
       },
       {
@@ -25,13 +23,10 @@ const experience = [
   {
     name: 'Umbrella IT',
     link: 'https://umbrellait.com/',
-    role: 'Junior Fullstack Developer',
-    startDate: '01.02.2021',
-    endDate: '01.02.2022',
     achievements: [
       {
         id: 1,
-        text: 'Created 2 new projects for our client',
+        text: 'Created 2 new projects for our client and regurarly updated them',
         icon: '✨',
       },
       {
@@ -41,7 +36,7 @@ const experience = [
       },
       {
         id: 3,
-        text: 'Added functionality that increased the influx of new users by 30%',
+        text: 'Added functionality that increased the influx of new users by 32.8%',
         icon: '🙋‍♂️ 🙋‍♀️',
       },
     ],
